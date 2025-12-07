@@ -101,3 +101,4 @@ find . -name "*.txt" -exec grep -rni "hello" {} \;
 # find - 이름이 test1으로 시작하는 파일찾기
 # grep - hello 라는 키워드가 들어있는 문장찾기 
 find . -type f -name "test1*"| xargs grep -rni "hello"
+
